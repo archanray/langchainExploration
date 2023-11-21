@@ -4,8 +4,7 @@
 # FewShotPromptTemplate allows for few shot learning using prompts
 # Same as incontext learning but with some warmups
 import os
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-from langchain.llms import HuggingFaceHub
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = # add token as ""
 from langchain.prompts import FewShotPromptTemplate
 from langchain.prompts import PromptTemplate
 

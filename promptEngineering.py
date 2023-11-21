@@ -1,6 +1,5 @@
 import os
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = # add token as ""
 # prompt consists of multiple components
 # -- instructions:
 # -- -- tell model what to do, typically how to use inputs

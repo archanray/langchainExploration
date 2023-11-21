@@ -1,5 +1,5 @@
 import os
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = # add token as ""
 
 # default API doesn't allow using GPU, so use smaller models
 # like:  google/flan-t5-x1
